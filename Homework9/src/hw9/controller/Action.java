@@ -32,6 +32,15 @@ public abstract class Action {
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
     public static void add(Action a) {
     	synchronized (hash) {
     		if (hash.get(a.getName()) != null) {
