@@ -25,6 +25,13 @@ public abstract class Action {
     //
     private static Map<String,Action> hash = new HashMap<String,Action>();
 
+    
+    
+    
+    
+    
+    
+    
     public static void add(Action a) {
     	synchronized (hash) {
     		if (hash.get(a.getName()) != null) {
