@@ -23,13 +23,13 @@ import model.EmployeeDAO;
 public class Controller extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
-	private EmployeeDAO employeeDAO;
+//	private EmployeeDAO employeeDAO;
 //	private FavoriteDAO favoriteDAO;
 
 	public void init() throws ServletException {
         Model model = new Model(getServletConfig());
 
-        Action.add(new CreateEmp(model));
+//        Action.add(new CreateEmp(model));
 //        Action.add(new RegisterAction(model));
 //        Action.add(new ChangePassAction(model));
 //        Action.add(new FavoriteListAction(model));
